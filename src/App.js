@@ -84,7 +84,7 @@ function Board({ xIsNext, squares, onPlay}) {
     <Square value={squares[7]} onSquareClick={()=>handleClick(7)}/> 
     <Square value={squares[8]} onSquareClick={()=>handleClick(8)}/> 
     </div>
-    {winner && <p>{winner} has splooged the board</p>}
+    {winner && <p>{winner} has dominated the board!</p>}
     
     </>
   )
